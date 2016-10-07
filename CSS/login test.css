@@ -1,0 +1,30 @@
+body {
+	background-color: #ffc04c;
+}
+
+h1 {
+  margin: 70px 510px 30px;
+  position: relative;
+  font-family: Franklin Gothic Medium;
+  }
+
+
+.container {
+  margin: 30px auto 0 auto;
+  width: 440px;
+}
+ 
+.login {
+  position: relative;
+  margin: 0 auto;
+  padding: 5px 20px 2px;
+  width: 300px;
+  border: 1px solid #fff6e5;
+}
+
+.forgot {
+  position: relative;
+  margin: 0 auto;
+  padding: 2px 20px 20px;
+  width: 310px;
+  font-family: Franklin Gothic Medium}
