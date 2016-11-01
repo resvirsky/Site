@@ -2,7 +2,7 @@ body {
 	background-color: #212121;
 }
 
-.menuprincipal {
+.menuprincipal1 {
 	width: 400px;
 	height: 90px;
 	background-color: #ebf3f7;
@@ -17,7 +17,7 @@ body {
 	Imagens dos quadros
 -----------------------------------------------*/
 
-.squares:nth-child(1) {
+.squares1:nth-child(1) {
 	background-image: url("../images/sccp1.jpg");
 	background-size: contain;
 	width: 120px;
@@ -26,7 +26,7 @@ body {
 	list-style-type: none;
 	cursor: pointer;
 	}
-.squares:nth-child(2) {
+.squares1:nth-child(2) {
 	background-image: url("../images/sep1.jpg");
 	background-size: contain;
 	width: 120px;
@@ -36,7 +36,7 @@ body {
 	cursor: pointer;
 	}	
 
-.squares:nth-child(3) {
+.squares1:nth-child(3) {
 	background-image: url("../images/sfc1.jpg");
 	background-size: contain;
 	width: 120px;
@@ -45,7 +45,7 @@ body {
 	list-style-type: none;
 	cursor: pointer;
 	}	
-.squares:nth-child(4) {
+.squares1:nth-child(4) {
 	background-image: url("../images/spfc1.jpg");
 	background-size: contain;
 	width: 120px;
@@ -58,7 +58,7 @@ body {
 /* --------------------------------------------
 	Efeitos
 -----------------------------------------------*/
-.squares:hover ul {
+.squares1:hover ul {
 	display: block;
 	opacity: 1;
 	/* While hovered, drop down-menu appears 
@@ -67,23 +67,23 @@ body {
 	color:white;
 }
 
-.squares:nth-child(1):hover{
+.squares1:nth-child(1):hover{
 	background:black;
 	color:white;
 }
 
 
-.squares:nth-child(2):hover{
+.squares1:nth-child(2):hover{
 	background:green;
 	color:white;
 }
 
-.squares:nth-child(3):hover{
+.squares1:nth-child(3):hover{
 	background:gray;
 	color:white;
 }
 
-.squares:nth-child(4):hover{
+.squares1:nth-child(4):hover{
 	background:red;
 	color:white;
 }
@@ -91,7 +91,7 @@ body {
 /* --------------------------------------------
 	Submenu
 -----------------------------------------------*/
-.menu {
+.menu1 {
 	list-style-type: none;
 	opacity:0;
 	font: 20px/35px lucida console;
@@ -102,11 +102,11 @@ body {
 	padding-right:5px;
 }
 
-.menu a {
+.menu1 a {
 	color:white;
 }
 
-.menu a:hover {
+.menu1 a:hover {
 	font: bold 20px/35px lucida console;
 }
 
